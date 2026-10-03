@@ -1,0 +1,17 @@
+{
+  "id": "latam-tv",
+  "name": "Addon Latam TV",
+  "version": "1.0.0",
+  "apiVersion": 3,
+  "entry": "plugin.js",
+  "description": "Canales en vivo del addon Addon-Latam-TV, agrupados por categoría.",
+  "author": "Addon Latam",
+  "hosts": ["raw.githubusercontent.com"],
+  "liveStreamHosts": "any",
+  "capabilities": ["search", "channels", "resolve"],
+  "color": "#E50914",
+  "settings": [
+    { "key": "repo", "label": "Repositorio", "type": "text", "default": "Droydr13/Addon-Latam-TV", "hint": "usuario/repositorio en GitHub" },
+    { "key": "branch", "label": "Rama", "type": "text", "default": "main", "hint": "Normalmente main" }
+  ]
+}
